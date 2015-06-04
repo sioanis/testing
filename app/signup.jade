@@ -1,0 +1,22 @@
+h3 Create New User:
+form.form-horizontal
+  .form-group
+    label.col-sm-2.control-label First Name:
+    .col-sm-10
+      input(type='text', ng-model='fName', ng-disabled='!edit', placeholder='First Name')
+  .form-group
+    label.col-sm-2.control-label Last Name:
+    .col-sm-10
+      input(type='text', ng-model='lName', ng-disabled='!edit', placeholder='Last Name')
+  .form-group
+    label.col-sm-2.control-label Password:
+    .col-sm-10
+      input(type='password', ng-model='passw1', placeholder='Password')
+  .form-group
+    label.col-sm-2.control-label Repeat:
+    .col-sm-10
+      input(type='password', ng-model='passw2', placeholder='Repeat Password')
+hr
+button.btn.btn-success(ng-disabled='error || incomplete')
+  span.glyphicon.glyphicon-save
+  |  Save Changes
