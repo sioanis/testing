@@ -21,14 +21,6 @@
     "gulp-minify-css": "1.1.1"
   },
   "dependencies": {
-    "express" : "~4.0.0",
-    "mysql": "2.6.2", 
-    "pause": "0.0.1",
-    "pkginfo": "0.3.0",
-    "passport": "0.2.1",
-    "passport-strategy": "1.0.0",
-    "passport-local": "1.0.0",
-    "passport-openid": "0.3.1",
-    "passport-google": "0.3.0"
+    "mongodb": "~2.0"
   }
 }
